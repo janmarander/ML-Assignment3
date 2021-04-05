@@ -159,7 +159,7 @@ def NN(set1X_train, set1X_test, set1y_train, set1y_test, timestr, part='3', ds='
         #                                solver = 'sgd',
         #                                activation = 'tanh',
         #                                hidden_layer_sizes=(50,100,50),
-        #                                alpha=0.1))])
+        #                                alpha=0.05))])
         # title = "Neural Network " + ds
         # plt = plot_learning_curve(newrf_best1, title, set1X_train, set1y_train, axes=None, ylim=None, cv=None, n_jobs=None, train_sizes=np.linspace(.1, 1.0, 5))
         # plt.savefig("Part " + str(part)+ ", " + ds + ' Neural Network Learning Curve' + timestr + '.png')
